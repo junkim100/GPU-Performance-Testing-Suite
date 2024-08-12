@@ -36,7 +36,7 @@ pip install torch transformers fire
 
 ### Example
 ```bash
-python script_name.py --model_name bert-base-uncased --input_text "Hello, world!" --batch_size 32 --num_iterations 100 --output_dir ./results
+python gpu_inference.py --model_name bert-base-uncased --input_text "Hello, world!" --batch_size 32 --num_iterations 100 --output_dir ./results
 ```
 
 ### Output
